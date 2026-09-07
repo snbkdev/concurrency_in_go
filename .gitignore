@@ -83,3 +83,9 @@ yarn-error.log*
 # vendor/
 
 info.txt
+
+# Игнорируем данные PostgreSQL
+real_world/db-data/postgres/*
+
+# Игнорируем данные Redis
+real_world/db-data/redis/*
